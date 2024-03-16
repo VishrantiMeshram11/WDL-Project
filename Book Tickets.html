@@ -1,0 +1,67 @@
+Book Tickets. html
+
+<html>
+<head>
+      <title>Railway Ticket Booking</title>
+      <link rel="stylesheet" href="index.css"/>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+
+          <br>
+          <br>
+      <body>
+      
+       <div class="booking" align="center">
+          <section>
+            <h2 class="head1">Book</h2>
+            <h2 class="head2">Your</h2>
+            <h2 class="head3">Tickets</h2>
+            <h2 class="head4">Here</h2>
+           
+          <form>
+         <ul>
+              
+               <div class="input-container">
+               <b> <i class="fa fa-user"></i></b>
+               <input type="text" placeholder="Name" required>
+               </div>
+               <div class="input-container">
+               <i class="fa fa-location-arrow fa-shake"></i>
+               <input type="text" placeholder="Form" required>
+               </div>
+               <div class="input-container">
+               <i class="fa fa-location-dot fa-shake"></i>
+               <input type="text" placeholder="To" required>
+               </div>
+               <div class="input-container">
+               <i class="fa fa-train"></i>
+               <input type="text" placeholder="Train Number" required>
+               </div>
+               <div class="input-container">
+               
+               <i class="fa fa-calendar"></i>
+              <input type="date" placeholder="Date" required>
+               </div>
+               <div class="input-container">
+               <i class="fa fa-users"></i>   
+               <input type="number" placeholder="Number of Passengers" required>
+               </div>
+               <button type="submit">Book Now</button>                                                       
+    </ul>
+            </form>
+            
+          <button class="submit" type="button" onclick="trainB()">Find Trains </button>
+<div class="form-popup" id="bookTrain">
+    <div class="popup">
+    <h1>Due to Covid19 all trains are currently cancelled</h1> <br>
+    <h2>#stayhome</h2>
+    <h2>#staysafe</h2>
+    <button type="button" class="hide" onclick="trainC()">Close</button>
+    </div> </div>
+
+ </section>
+            
+       </div>
+       </body>
+       </html>
